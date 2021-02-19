@@ -1,8 +1,7 @@
 # The isolationforest_outliers function returns two data sets (DataFrame):
 # - correct_data - data set that does not contain any outliers,
 # - outliers_data - a data set containing outliers removed from the original set.
-# DBSCAN algorithm has been implemented in the DBSCAN function in the Scikit-Learn library, in the Cluster module;
-# The DBSCAN feature was developed by the team of dr. Alberta Villanova del Moral (https://github.com/scikit-learn/scikit-learn/blob/main/sklearn/cluster/_dbscan.py).
+# The isolation forest algorithm was implemented in the IsolationForest function in the Scikit-Learn library, in the Ensemble module (https://github.com/scikitlearn/scikitlearn/blob/b3ea3ed6a/sklearn/ensemble/_iforest.py#L27).
 
 
 
