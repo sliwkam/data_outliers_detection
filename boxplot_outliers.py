@@ -1,9 +1,8 @@
-"""
-The boxplot_outliers function returns two data sets (DataFrame):
-- correct_data - data set that does not contain any outliers,
-- outliers_data - a data set containing outliers removed from the original set.
-With the appropriate value of the function parameters, up to two box plots can be displayed: the box plot of the input data and the box plot of the output data.
-"""
+# The boxplot_outliers function returns two data sets (DataFrame):
+# - correct_data - data set that does not contain any outliers,
+# - outliers_data - a data set containing outliers removed from the original set.
+# With the appropriate value of the function parameters, up to two box plots can be displayed: the box plot of the input data and the box plot of the output data.
+
 
 def boxplot_outliers(data, interval, input_plot = False, output_plot = False, input_color = 'blue', output_color = 'green', orientation = 'h'):
     #---imports---
